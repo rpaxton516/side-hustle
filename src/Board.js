@@ -65,14 +65,14 @@ eachNote(note, i){
 	render() {
 		return (
 		<div>
-		  <div className="head">
+		  /*<div className="head">
         <header className="App-header">
         	<center>
           <img src={logo} className="App-logo" alt="logo" />  
           <h1 className="App-title">What do we owe Nicole?</h1>
           </center>
         </header>
-      </div>
+      </div>*/
 			<div className="board">
 				{this.state.notes.map(this.eachNote)}
 				<button onClick={this.add.bind(null, "New Note")}
@@ -85,4 +85,4 @@ eachNote(note, i){
 	}
 }
 
-export default Board
+export default Board;
