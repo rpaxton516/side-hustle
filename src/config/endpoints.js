@@ -1,1 +1,1 @@
-export const relayApi = 'https://api.graph.cool/relay/v1/cjgwkdd8v4k5h0177tjaff90j'
+export GRAPHQL_ENDPOINT = 'https://api.graph.cool/relay/v1/cjgwkdd8v4k5h0177tjaff90j'
